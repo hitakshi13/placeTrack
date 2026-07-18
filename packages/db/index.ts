@@ -1,0 +1,23 @@
+export { prisma, default } from "./client";
+export type {
+  User,
+  Company,
+  Application,
+  OARecord,
+  InterviewRound,
+  DiscussionPost,
+  Notification,
+  Resource,
+  Announcement,
+  Account,
+  Session,
+  VerificationToken,
+  UserRole,
+  CompanyStatus,
+  ApplicationStage,
+  OAResult,
+  RoundType,
+  RoundResult,
+  NotificationType,
+  ResourceType,
+} from "@prisma/client";
