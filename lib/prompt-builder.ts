@@ -6,7 +6,6 @@
  * Keep these pure functions — no side effects, no API calls.
  */
 
-import type { Company } from "@/types";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -198,7 +197,19 @@ Return ONLY this JSON structure:
 
 // ─── Helper to convert Company type to CompanyContext ─────────────────────────
 
-export function companyToContext(company: Company): CompanyContext {
+export function companyToContext(company: {
+  name: string;
+  role: string;
+  packageLpa: number;
+  packageMax: number | null;
+  sector: string | null;
+  description: string | null;
+  minCgpa: number;
+  maxBacklogs: number;
+  branches: string[];
+  jobType: string | null;
+  jdUrl: string | null;
+}): CompanyContext {
   return {
     name: company.name,
     role: company.role,
@@ -209,7 +220,8 @@ export function companyToContext(company: Company): CompanyContext {
     minCgpa: company.minCgpa,
     maxBacklogs: company.maxBacklogs,
     branches: company.branches,
-    jobType: company.jobType,
+    jobType: company.jobType ?? undefined,
     jdUrl: company.jdUrl,
   };
+
 }

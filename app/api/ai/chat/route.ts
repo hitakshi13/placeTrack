@@ -8,7 +8,6 @@ import {
   companyToContext,
   type StudentContext,
 } from "@/lib/prompt-builder";
-import type { Company } from "@/types";
 
 // ─── Request validation ───────────────────────────────────────────────────────
 
@@ -85,10 +84,10 @@ export async function POST(req: NextRequest) {
     };
 
     // 5. Build system prompt
-    const systemPrompt = buildInterviewCoachPrompt(
-      companyToContext(company as Company),
-      studentContext
-    );
+   const systemPrompt = buildInterviewCoachPrompt(
+  companyToContext(company),
+  studentContext
+);
 
     // 6. Call Claude — pass full conversation history
     const chatMessages: ChatMessage[] = messages.map((m) => ({
