@@ -1,53 +1,55 @@
 # 🎓 PlaceTrack – AI-Powered Placement Management System
 
-A full-stack Placement Management System that streamlines campus recruitment by connecting students, coordinators, professors, and placement officers on a single platform. PlaceTrack automates placement workflows while leveraging AI to provide smarter insights, resume evaluation, and interview preparation.
+A full-stack Placement Management System that streamlines campus recruitment by connecting students and administrators on a single platform. PlaceTrack automates placement workflows while leveraging AI to provide smarter insights, resume evaluation, and interview preparation.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-### 👨‍🎓 Student Portal
-- Student registration and authentication
+## 👨‍🎓 Student Portal
+- Secure authentication and profile management
 - Personalized dashboard
 - View eligible companies
 - Apply for placement drives
 - Resume upload and management
 - Track application status
+- View placement history
 - AI Resume Score & Suggestions
 - AI Interview Preparation Assistant
+- Smart eligibility checker
 
-### 👨‍🏫 Professor Portal
-- Review student profiles
-- View placement statistics
-- Monitor student progress
-- Access department-wise analytics
-
-### 🏢 Placement Coordinator Portal
-- Manage placement drives
-- Add and update company details
+## 👨‍💼 Admin Portal
+- Secure admin authentication
+- Manage students
+- Manage companies
+- Create and update placement drives
 - Define eligibility criteria
-- Manage applications
-- View hiring analytics
+- Review applications
+- Track placement progress
 - Generate placement reports
+- Dashboard with placement analytics
+- Role-based access management
 
-### 🤖 AI Features
+## 🤖 AI Features
 - AI Resume Scorer
 - AI Interview Preparation Coach
 - Smart Eligibility Explainer
-- AI-powered career guidance
-- Personalized placement recommendations
+- Personalized career guidance
+- Placement recommendations
 
-### 📊 Analytics Dashboard
+## 📊 Analytics Dashboard
 - Student placement statistics
 - Company hiring insights
-- Department-wise placement analysis
-- Placement trends visualization
+- Application analytics
+- Placement trends
+- Department-wise performance
 
-### 🔐 Authentication & Security
+## 🔐 Authentication & Security
 - Secure authentication
 - Role-based access control
 - Protected routes
 - Session management
+- Password encryption
 
 ---
 
@@ -174,24 +176,25 @@ http://localhost:3000
 
 # 🎯 User Roles
 
-### 👨‍🎓 Student
-- Apply for companies
-- View eligibility
-- Track applications
+## 👨‍🎓 Student
+- Register and log in
+- Manage profile
 - Upload resume
-- Practice AI interviews
+- Apply for placement drives
+- Track application status
+- Check eligibility
+- Use AI interview preparation
+- Receive AI resume feedback
 
-### 👨‍🏫 Professor
-- View student performance
-- Monitor placement progress
-- Department analytics
-
-### 👨‍💼 Placement Coordinator
+## 👨‍💼 Admin
+- Manage students
 - Manage companies
 - Create placement drives
+- Configure eligibility criteria
 - Review applications
 - Publish results
-- Placement analytics
+- Monitor placement statistics
+- Access analytics dashboard
 
 ---
 
@@ -199,11 +202,11 @@ http://localhost:3000
 
 - Resume Analysis
 - Resume Scoring
+- AI Interview Preparation
 - Interview Question Generation
-- Personalized Interview Preparation
-- Eligibility Explanation
+- Smart Eligibility Explanation
 - Career Guidance
-- Smart Placement Recommendations
+- Placement Recommendations
 
 ---
 
@@ -212,24 +215,9 @@ http://localhost:3000
 - Placement statistics
 - Student insights
 - Company hiring trends
-- Department performance
 - Application analytics
 - Placement reports
-
----
-
-# 📸 Screenshots
-
-Add screenshots for:
-
-- Landing Page
-- Student Dashboard
-- Professor Dashboard
-- Coordinator Dashboard
-- Company Management
-- Resume Analysis
-- AI Interview Coach
-- Analytics Dashboard
+- Performance monitoring
 
 ---
 
@@ -242,7 +230,7 @@ Add screenshots for:
 - Interview scheduling
 - Real-time notifications
 - Student skill gap analysis
-- Placement prediction using AI
+- AI-based placement prediction
 - Mobile application
 
 ---
