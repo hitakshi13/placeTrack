@@ -3,15 +3,11 @@
 A full-stack Placement Management System that streamlines campus recruitment by connecting students and administrators on a single platform. PlaceTrack automates placement workflows while leveraging AI to provide smarter insights, resume evaluation, and interview preparation.
 
 ---
-# 🎓 PlaceTrack – AI-Powered Placement Management System
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://place-track-pf7n.vercel.app/login)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
-A full-stack Placement Management System that streamlines campus recruitment by connecting students and administrators on a single platform. PlaceTrack automates placement workflows while leveraging AI to provide smarter insights, resume evaluation, and interview preparation.
-
-## 🌐 Live Demo
 
 **🔗 Live Application:** https://place-track-pf7n.vercel.app/login
 
