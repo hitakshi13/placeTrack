@@ -4,10 +4,6 @@ A full-stack Placement Management System that streamlines campus recruitment by 
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://place-track-pf7n.vercel.app/login)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-
 
 **🔗 Live Application:** https://place-track-pf7n.vercel.app/login
 
